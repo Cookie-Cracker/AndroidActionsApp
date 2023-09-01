@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">AndroidActionsApp</string>
     <string name="App_Title">Actions 2</string>
+    <string name="button">Button</string>
 </resources>
