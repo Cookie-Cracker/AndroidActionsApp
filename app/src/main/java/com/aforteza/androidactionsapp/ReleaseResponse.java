@@ -9,7 +9,7 @@ public class ReleaseResponse {
     private String releaseName;
 
     @SerializedName("body")
-    private String releaseBody;
+    private int releaseBody;
 
     @SerializedName("versionCode") // Add this annotation for the versionCode field
     private int versionCode;
@@ -22,7 +22,7 @@ public class ReleaseResponse {
         return releaseName;
     }
 
-    public String getReleaseBody() {
+    public int getReleaseBody() {
         return releaseBody;
     }
 
